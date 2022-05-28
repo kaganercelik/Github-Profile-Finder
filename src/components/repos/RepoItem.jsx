@@ -13,7 +13,7 @@ function RepoItem({ repo }) {
   } = repo;
 
   return (
-    <div className="mb-2 rounded-md card bg-gray-800 hover:bg-gray-900">
+    <div className="mb-3 rounded-md card bg-gray-800 hover:bg-gray-900 shadow-md shadow-red-800">
       <div className="card-body">
         <h3 className="mb-2 text-xl font-semibold">
           <a href={html_url}>
