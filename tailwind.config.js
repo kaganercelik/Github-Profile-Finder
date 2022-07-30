@@ -1,10 +1,10 @@
 module.exports = {
-  content: ["./src/**/*.{js,jsx,ts,tsx}", "./public/index.html"],
-  theme: {
-    extend: {},
-  },
-  plugins: [require("daisyui")],
-  daisyui: {
-    themes: ["dracula"],
-  },
+	content: ["./src/**/*.{js,jsx,ts,tsx}", "./public/index.html"],
+	theme: {
+		extend: {},
+	},
+	plugins: [require("daisyui")],
+	daisyui: {
+		themes: ["emerald"],
+	},
 };
